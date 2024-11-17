@@ -18,7 +18,7 @@ Proje aşağıdaki dosya ve klasörleri içerir:
 
 Projenin verilerinden bir örnek görüntü:
 
-![Tümosan Traktör Örneği](https://github.com/fuchstech/tumosan_yolov4/blob/main/80955.png)
+![Tümosan Traktör Örneği](https://github.com/fuchstech/tumosan_yolov4/blob/main/images/80955.png)
 
 ---
 
