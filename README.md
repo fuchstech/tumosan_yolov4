@@ -32,5 +32,6 @@ Dataset'e [Google Drive üzerinden](https://drive.google.com/drive/folders/1I2ae
 
 1. **Depoyu klonlayın**:
    ```bash
-   git clone https://github.com/kullaniciadi/tumosan-detection.git
-   cd tumosan-detection
+   git clone https://github.com/fuchtech/tumosan-detection.git
+   cd tumosan-detection/detection
+   python3 
