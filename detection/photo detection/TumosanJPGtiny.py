@@ -8,7 +8,7 @@ This is a temporary script file.
 import numpy as np
 import cv2
 
-img = cv2.imread("/home/fuchs/Desktop/yolo/custom_yolo_model/yolov4/darknet/spot_data/spot_images/6.jpg")
+img = cv2.imread("images/80955.jpeg")
 
 img_height = img.shape[0]
 img_width = img.shape[1]
@@ -23,7 +23,7 @@ colors = np.array(colors)
 colors = np.tile(colors,(18,1))
 #%%
 
-model = cv2.dnn.readNetFromDarknet("/home/fuchs/Desktop/yolo/custom_yolo_model/yolov4/darknet/yolov4-tiny.cfg", "/home/fuchs/Desktop/yolo/custom_yolo_model/yolov4/darknet/yolov4-tiny_best.weights")
+model = cv2.dnn.readNetFromDarknet("tinyyolov4_cfg", "tinyyolov4_last.weights")
 
 layers = model.getLayerNames()
 

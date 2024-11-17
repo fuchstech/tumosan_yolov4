@@ -25,7 +25,7 @@ while True:
     colors = np.array(colors)
     colors = np.tile(colors,(18,1))
     
-    model = cv2.dnn.readNetFromDarknet("/home/fuchs/Desktop/yolo/custom_yolo_model/yolov4/darknet/yolov4-tiny.cfg", "/home/fuchs/Desktop/yolo/custom_yolo_model/yolov4/darknet/yolov4-tiny_last.weights")
+    model = cv2.dnn.readNetFromDarknet("tinyyolov4_cfg", "tinyyolov4_last.weights")
     
     layers = model.getLayerNames()
     

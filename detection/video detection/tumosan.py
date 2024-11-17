@@ -7,7 +7,7 @@ This is a temporary script file.
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture("/home/fuchs/Desktop/yolo/custom_yolo_model/yolov4/darknet/videoplayback.webm")
+cap = cv2.VideoCapture("videoplayback.webm")
 
 
 while True:
@@ -25,7 +25,7 @@ while True:
     colors = np.array(colors)
     colors = np.tile(colors,(18,1))
     
-    model = cv2.dnn.readNetFromDarknet("/home/fuchs/Desktop/yolo/custom_yolo_model/yolov4/darknet/spotyolov4.cfg", "/home/fuchs/Desktop/yolo/custom_yolo_model/yolov4/darknet/spotyolov4_last.weights")
+    model = cv2.dnn.readNetFromDarknet("yolov4.cfg", "yolov4_last.weights")
     
     layers = model.getLayerNames()
     
