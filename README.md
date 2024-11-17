@@ -7,9 +7,9 @@ Bu proje, Tümosan traktörlerin görüntü tanıma ve tespit modelleri için e�
 
 ---
 
-## 📂 Proje Yapısı
+## 📂 Eğitilmiş Modelleri İndirn
 
-Proje aşağıdaki dosya ve klasörleri içerir:
+Dataset'e [Google Drive üzerinden](https://drive.google.com/drive/folders/1I2aeZZrGuEEaTM_98vZrg_Ba0kgWiyOJ?usp=sharing ) ulaşabilirsiniz.
 
 
 ---
@@ -23,10 +23,11 @@ Projenin verilerinden bir örnek görüntü:
 ---
 
 ## 🔗 Dataset İndir
-
-Dataset'e [Google Drive üzerinden](https://drive.google.com/drive/folders/1I2aeZZrGuEEaTM_98vZrg_Ba0kgWiyOJ?usp=sharing ) ulaşabilirsiniz.
+Dataset'e [Google Drive üzerinden](https://drive.google.com/drive/folders/1YSMvS3EM5o3C6KJly44ddR085ZquNEi2?usp=sharing) ulaşabilirsiniz.
 
 ---
+
+
 
 ## 🔧 Kurulum
 
@@ -34,4 +35,4 @@ Dataset'e [Google Drive üzerinden](https://drive.google.com/drive/folders/1I2ae
    ```bash
    git clone https://github.com/fuchtech/tumosan-detection.git
    cd tumosan-detection/detection
-   python3 
+   python3 tumosanjpg.py
